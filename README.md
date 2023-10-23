@@ -36,6 +36,7 @@ These results highlight the advantages of Rust over Python in terms of performan
 2. [Rust - Bubble Sort](https://github.com/nogibjj/oo46_Mini_Proj_W8/blob/main/src/main.rs) => Bubble Sort implemtation in Rust.
 
 ### Application output:
+Please note that the outcomes of the above implementations are influenced by specific hardware requirements and may vary on different systems.
 
 ![Output](output.png)
 
