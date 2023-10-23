@@ -1,0 +1,2 @@
+Bubble Sort implementation in Python took: 70.85601830482483 seconds to execute
+Current memory usage: 0.703125 KB

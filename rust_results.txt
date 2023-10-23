@@ -1,0 +1,2 @@
+Bubble Sort implementation in Rust took: 1.8600504s seconds to execute
+Estimated memory usage: 40000 bytes
