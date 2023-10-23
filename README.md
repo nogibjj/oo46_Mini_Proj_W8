@@ -1,6 +1,6 @@
-[![SQL_Lab](https://github.com/nogibjj/oo46_Mini_Proj_W6/actions/workflows/cicd.yml/badge.svg)][def]
+[![CLI_Lab](https://github.com/nogibjj/oo46_Mini_Proj_W8/actions/workflows/cicd.yml/badge.svg)][def]
 
-# SQL Lab - Week 8 mini project
+# CLI Lab - Week 8 mini project
 
 ## Python vs Rust Speed Test
 The purpose of this project is to assess the execution speed and resource usage of Python and Rust. The comparison involved implementing the Bubble Sort algorithm in both languages on an array of 1000 items. Each item is a random integer value ranging from 0 to 999. To maintain fairness in this comparison, both languages exclusively utilize standard libraries.
@@ -9,11 +9,10 @@ The results of these implementations are as follows:
 # Quick Distinctions:
 | Language | Execution Time    | Memory Usage |
 |----------|-------------------|--------------|
-| Python   | 70.85602 seconds | 0.27734375 KB| 
-| Rust     | 1.961307 seconds | 40 KB        |
+| Python   | 70.85602 seconds  | 0.27734375 KB| 
+| Rust     | 1.961307 seconds  | 40 KB        |
 
-NB: The above codetable estimates the memory usage based on the size of a single i32 element and the number of elements in the array. Please note that this is a rough estimate and doesn't provide detailed memory profiling. To get more accurate memory measurements, you may need to use external profiling tools and libraries specific to your platform.
-
+NB: The above table estimates the memory usage (specifically for the Rust implementation) based on the size of a single i32 element and the number of elements in the array. Please note that this is a rough estimate and doesn't provide detailed memory profiling. To get more accurate memory measurements, you may need to use external profiling tools and libraries specific to your platform.
 
 ## Analysis:
 In the comparison of Python and Rust using the Bubble Sort algorithm, there are significant differences in execution time and memory usage. Rust outperforms Python in terms of both speed and memory efficiency.
@@ -27,17 +26,18 @@ Rust: In contrast, Rust executed the same algorithm in just about 1.96 seconds. 
 
 Python: The memory usage during execution was minimal, at only 0.28 kilobytes (KB).
 Rust: While Rust consumed more memory, approximately 40 KB, it remained efficient in comparison to Python.
+
 These results highlight the advantages of Rust over Python in terms of performance and resource utilization. While Python is known for its simplicity and ease of use, Rust's emphasis on safety and efficiency is evident in this performance comparison. Depending on the specific requirements of a project, choosing Rust can lead to substantial gains in both execution speed and memory efficiency.
 
 ## Mini-project deliverables:
 
-1. [Python - Bubble Sort](https://github.com/nogibjj/oo46_Mini_Proj_W6/blob/main/mylib/mydbconn.py) => This module securely connects to an Azure SQL Server database in the cloud and returns a connection object along with a "success" message string. It relies on environment variables (Server Name, Database, User Name, Password) for this connection.
+1. [Python - Bubble Sort](https://github.com/nogibjj/oo46_Mini_Proj_W8/blob/main/sorting.py) => Bubble Sort implemtation in Python.
 
-2. [Rust - Bubble Sort](https://github.com/nogibjj/oo46_Mini_Proj_W6/blob/main/mylib/query.py) => The query module does the 
+2. [Rust - Bubble Sort](https://github.com/nogibjj/oo46_Mini_Proj_W8/blob/main/src/main.rs) => Bubble Sort implemtation in Rust.
 
 ### Application output:
 
-![Output](top.png)
+![Output](output.png)
 
 
-[def]: https://github.com/nogibjj/oo46_Mini_Proj_W6/actions/workflows/cicd.yml
+[def]: https://github.com/nogibjj/oo46_Mini_Proj_W8/actions/workflows/cicd.yml
