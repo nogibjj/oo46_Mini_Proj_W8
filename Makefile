@@ -12,7 +12,7 @@ lint:
 	#disable comment to test speed
 	#pylint --disable=R,C --ignore-patterns=test_.*?py *.py mylib/*.py
 	#ruff linting is 10-100X faster than pylint
-	ruff check  *.py *.py
+	ruff check  *.py 
 
 container-lint:
 	docker run --rm -i hadolint/hadolint < Dockerfile
@@ -20,6 +20,6 @@ container-lint:
 refactor: format lint
 
 run:
-# 	python main.py
+# 	python sorting.py
 		
 all: install lint test format refactor
