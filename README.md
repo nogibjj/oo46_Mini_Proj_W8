@@ -1,4 +1,4 @@
-[![CLI_Lab](https://github.com/nogibjj/oo46_Mini_Proj_W8/actions/workflows/cicd.yml/badge.svg)][def]
+[![CLI_Lab](https://github.com/nogibjj/oo46_Mini_Proj_W6/actions/workflows/cicd.yml/badge.svg)][def]
 
 # CLI Lab - Week 8 mini project
 
@@ -40,4 +40,4 @@ These results highlight the advantages of Rust over Python in terms of performan
 ![Output](output.png)
 
 
-[def]: https://github.com/nogibjj/oo46_Mini_Proj_W8/actions/workflows/cicd.yml
+[def]: https://github.com/nogibjj/oo46_Mini_Proj_W6/actions/workflows/cicd.yml
