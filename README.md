@@ -1,9 +1,9 @@
-[![CLI_Lab](https://github.com/nogibjj/oo46_Mini_Proj_W6/actions/workflows/cicd.yml/badge.svg)][def]
+[![CLI_Lab](https://github.com/nogibjj/oo46_Mini_Proj_W8/actions/workflows/cicd.yml/badge.svg)][def]
 
 # CLI Lab - Week 8 mini project
 
 ## Python vs Rust Speed Test
-The purpose of this project is to assess the execution speed and resource usage of Python and Rust. The comparison involved implementing the Bubble Sort algorithm in both languages on an array of 1000 items. Each item is a random integer value ranging from 0 to 999. To maintain fairness in this comparison, both languages exclusively utilize standard libraries.
+The purpose of this project is to assess the execution speed and resource usage of Python and Rust. The comparison involved implementing the Bubble Sort algorithm in both languages on an array of 10000 items. Each item is a random integer value ranging from 0 to 999. To maintain fairness in this comparison, both languages exclusively utilize standard libraries.
 The results of these implementations are as follows:
 
 # Quick Distinctions:
@@ -41,4 +41,4 @@ Please note that the outcomes of the above implementations are influenced by spe
 ![Output](output.png)
 
 
-[def]: https://github.com/nogibjj/oo46_Mini_Proj_W6/actions/workflows/cicd.yml
+[def]: https://github.com/nogibjj/oo46_Mini_Proj_W8/actions/workflows/cicd.yml
